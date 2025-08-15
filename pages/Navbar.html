@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NavBar:CSS</title>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0px;
+                padding-left: 10px;
+                background-color: rgb(13, 10, 53);
+                overflow: hidden;
+            }
+            ul > li{
+                float: left;
+                border-right: 1px solid aliceblue;
+            }
+            ul > li > a{
+                text-decoration: none;
+                color: aliceblue;
+                display: block;
+                padding: 16px 14px;
+                font-size: 25px;
+                text-align: center;
+            }
+            #signup{
+                float: right;
+            }
+            #login{
+                float: right;
+            }
+            li:last-child{
+                border: none;
+            }
+            li a:hover:not(.home) {
+                background-color: bisque;
+                color: brown;
+            }
+            .home{
+                background-color: aquamarine;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="home"><a href="#home" style="color: red;">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li id="login"><a href="">Login</a></li>
+            <li id="signup"><a href="">SignUp</a></li>
+        </ul>
+        <br><br>
+        <ol>
+            <li class="home"><a href="#home" style="color: red;">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li id="login "><a href="">Login</a></li>
+            <li id="Signup"><a href="">Singup</a></li>
+        </ol>
+    </body>
+</html>

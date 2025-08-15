@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid3:CSS</title>
+        <style>
+            h1{
+                text-align: center;
+                background-color: azure;
+                color: blue;
+            }
+            .gridcontainer{
+                display: grid;
+                background-color: beige;
+                grid-template-columns: auto auto auto auto auto auto;
+                column-gap: 10px;
+                row-gap: 2px;
+                margin-top: 30px;
+                
+
+            }
+            .gridcontainer > div{
+                background-color: aqua;
+                text-align: center;
+                font-size: 15px;
+                padding: 2px;
+            }
+            .item1{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 50px;
+                margin: 10px 5px;
+                line-height: 50px;
+            }
+            .item2{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                height: 20px;
+                height: 400px;
+            }
+            .item3{
+                grid-column-start: 2;
+                grid-column-end: 6;
+                height: 400px;
+            }
+            .item4{
+                height: 400px;
+            }
+            .item5{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                margin-top: 10px;
+                height: 100px;
+            }
+            .item6{
+                grid-column-start: 4;
+                grid-column-end: 7;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>List of Courses</h1>
+        <div class="gridcontainer">
+            <div class="item1">Item1</div>
+            <div class="item2">Item2</div>
+            <div class="item3">Item3</div>
+            <div class="item4">Item4</div>
+            <div class="item5">Item5</div>
+            <div class="item6">Item6</div>
+        </div>
+    </body>
+</html>
