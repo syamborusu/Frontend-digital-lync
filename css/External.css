@@ -1,0 +1,17 @@
+header{
+            color: rgb(5, 1, 1);
+            background-color:aquamarine;
+            text-align: center;
+}
+        main{
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #c58e8e;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            }
