@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex3:CSS</title>
+        <style>
+            .flexcontainer{
+                display: flex;
+                background-color: aqua;
+                flex-wrap: wrap;
+                height: 200px;
+                align-items:center;
+                text-align: center;
+            }
+            .flexcontainer > div{
+                background-color: bisque;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+                color: red;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexcontainer">
+            <div style="flex-grow: 1;">FlexItem1</div>
+            <div style="flex-grow: 1;">FlexItem2</div>
+            <div style="flex-grow: 4;">
+                <h1>FlexItem3</h1>
+            </div>
+            <div style="flex-grow: 1;">FlexItem4</div>
+            <div style="flex-grow: 5;">FlexItem5</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex3:CSS</title>
+        <style>
+            .flexcontainer{
+                display: flex;
+                background-color: aqua;
+                flex-wrap: wrap;
+                height: 200px;
+                align-items:center;
+                text-align: center;
+                justify-content:space-evenly;
+            }
+            .flexcontainer > div{
+                background-color: bisque;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+                color: red;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexcontainer">
+            <div>FlexItem1</div>
+            <div>FlexItem2</div>
+            <div>FlexItem3</div>
+            <div>FlexItem4</div>
+            <div>FlexItem5</div>
+        </div>
+    </body>
+</html>
